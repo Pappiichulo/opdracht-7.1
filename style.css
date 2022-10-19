@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+
+.navbar {
+    width: 100vw;
+    height: 10vh;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    display: flex;
+    list-style: none;
+    padding-left: 5rem;
+    color: white;
+}
+
+.navdiv {
+
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    margin-right: 2rem;
+    display: none;
+        
+        
+}
+
+
+
+
+
+.title1 {
+    width: 100vw;
+    height: 30vh;
+    background-color: yellow ;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title1 p, h2 {
+    padding-left: 5rem;
+}
+
+.title2 {
+    width: 100vw;
+    height: 30vh;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+}
+
+.title2 p, h2 {
+    padding-left: 5rem;
+}
+
+
+.title3 {
+    width: 100vw;
+    height: 30vh;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+.title3 p, h2 {
+    padding-left: 5rem;
+}
+
+@media screen and (min-width: 576px ) and (max-width:768px) {
+    .navbar {
+        background-color: pink;
+        color: white;
+    }
+
+    .title1 {
+        background-color: red;
+        color: white;
+    }
+
+    .title2 {
+        color: white;
+        background-color: slateblue;
+        
+    }
+
+    .title3 {
+    background-color: darkblue;
+    color: white;
+    }
+    
+}
+
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        background-color: #686de0;
+        color: white;
+    }
+
+    .title1 {
+        background-color: lightblue;
+        color: white;
+    }
+
+    .title2 {
+        color: white;
+        background-color: purple;
+        
+    }
+
+    .title3 {
+    background-color: darkblue;
+    color: white;
+    }
+
+    .navdiv {
+        display: block;
+    }
+    
+}
